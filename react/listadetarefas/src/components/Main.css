@@ -1,0 +1,99 @@
+.main {
+    background-color: white;
+    padding: 30px;
+    margin: 60px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px rgb(0, 23, 71);
+}
+
+.main h1 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.myForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myForm input[type=text] {
+    height: 40px;
+    width: 80%;
+    margin-right: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.myForm button[type=submit] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #0A4F70;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.myForm button[type=submit]:hover {
+    background-color: rgb(0, 23, 71);
+    transition: 0.5s;
+}
+
+.tarefas {
+  margin-top: 20px;
+}
+
+.tarefas li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.tarefas li span {
+  display: flex;
+  align-items: center;
+}
+
+.tarefas li:hover {
+  background-color: rgb(0, 23, 71);
+  color: white;
+}
+
+.tarefas li .excluir {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+}
+
+.tarefas li .editar {
+  color: white;
+  background-color: rgb(0, 23, 71);
+  border: none;
+  border-radius: 3px;
+}
+
+.tarefas li .editar {
+  margin-right: 10px;
+}
+
+.tarefas li:hover .editar {
+  background-color: white;
+  color: black;
+}
+
+.tarefas li button[type=button] {
+  width: 50px;
+  padding: 3px;
+}
+
